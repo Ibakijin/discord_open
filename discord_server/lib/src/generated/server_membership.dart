@@ -168,7 +168,7 @@ class _ServerMembershipImpl extends ServerMembership {
       discordUser: discordUser is _i2.DiscordUser?
           ? discordUser
           : this.discordUser?.copyWith(),
-      $_discordUserMembersDiscordUserId: this._discordUserMembersDiscordUserId,
+      $_discordUserMembersDiscordUserId: _discordUserMembersDiscordUserId,
     );
   }
 }
